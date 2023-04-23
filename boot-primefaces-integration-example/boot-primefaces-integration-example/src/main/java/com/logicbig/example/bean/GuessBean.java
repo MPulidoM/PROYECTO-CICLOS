@@ -1,12 +1,11 @@
 package com.logicbig.example.bean;
 
-import com.logicbig.example.data.MyConfigurationService;
+import com.logicbig.example.data.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import javax.faces.bean.ApplicationScoped;
 import javax.faces.bean.ManagedBean;
-import javax.faces.bean.SessionScoped;
 import java.util.Random;
 
 
@@ -30,7 +29,7 @@ public class GuessBean {
         restart();
     }
     @Autowired
-    MyConfigurationService myConfigurationService;
+    UserService userService;
 
     public void guess(int numero){
         if(estado != "Gano" && numero>=0 && numero <=15 && acomulado > 0){
@@ -100,8 +99,8 @@ public class GuessBean {
     public int getNumeroUsuario(){
         return numeroUsuario;
     }
-    public void onDatabaseLoaded() {
-        Integer dbReward = Integer.parseInt(myConfigurationService.getValorOfPremio());
+    public void onDatabaseLoaded(String username) {
+        Integer dbReward = Integer.parseInt(userService.getValueOfPassword(username));
         System.out.println("Se consulta de la base de datos la recompensa: " + dbReward);
         setAcomulado(dbReward);
     }

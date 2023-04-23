@@ -50,9 +50,13 @@
     <h:form>
         <h1>Bienvenidos al juego de adivinar</h1>
         <div id="contenedor">
-            <p>Escribe tu nombre:</p>
-            <p:inputText value="#{userBean.name}"/>
-            <p:commandButton value=" Ir al juego" action="guess.xhtml"/>
+            <p>USUARIO:</p>
+            <p:inputText value="#{userBean.username}"/>
+            <p>CONTRASEÑA:</p>
+            <p:inputText value="#{userBean.password}"/><br/>
+            <p:commandButton value=" Registrarme" action="#{userBean.addUser()}"/>
+            <p:commandButton value=" Ir al juego" action="guess.xhtml"/> <br/>
+            <p>#{userBean.message}</p>
         </div>
 
     </h:form>

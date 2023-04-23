@@ -1,7 +1,7 @@
 package com.logicbig.example;
 
-import com.logicbig.example.data.MyConfiguration;
-import com.logicbig.example.data.MyConfigurationService;
+import com.logicbig.example.data.Users;
+import com.logicbig.example.data.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -17,7 +17,7 @@ import java.util.Arrays;
 @SpringBootApplication
 public class Main{
     @Autowired
-    MyConfigurationService myConfigurationService;
+    UserService userService;
 
     public static void main (String[] args) {
         SpringApplication.run(Main.class, args);
@@ -27,10 +27,10 @@ public class Main{
     public CommandLineRunner run() throws Exception {
         return (args) -> {
             System.out.println("Adding Configuration....\n");
-            myConfigurationService.addConfiguration(new MyConfiguration("Mariana","Junior"));
+            userService.addUser(new Users("Mariana","Junior"));
 
             System.out.println("\nGetting all configs....");
-            myConfigurationService.getAllConfiguration().forEach(configuration -> System.out.println(configuration));
+            userService.getAllUsers().forEach(configuration -> System.out.println(configuration));
         };
     }
 
