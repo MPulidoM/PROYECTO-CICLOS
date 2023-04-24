@@ -1,0 +1,42 @@
+Index: boot-primefaces-integration-example/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>com\\logicbig\\example\\bean\\UserBean.class\ncom\\logicbig\\example\\faces\\DataService.class\ncom\\logicbig\\example\\data\\MyConfiguration.class\ncom\\logicbig\\example\\bean\\GuessBean.class\ncom\\logicbig\\example\\data\\MyConfigurationService.class\ncom\\logicbig\\example\\Main.class\ncom\\logicbig\\example\\faces\\LineChartBean.class\ncom\\logicbig\\example\\data\\MyConfigurationRepository.class\n
+===================================================================
+diff --git a/boot-primefaces-integration-example/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst b/boot-primefaces-integration-example/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+--- a/boot-primefaces-integration-example/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst	
++++ b/boot-primefaces-integration-example/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst	
+@@ -1,8 +1,0 @@
+-com\logicbig\example\bean\UserBean.class
+-com\logicbig\example\faces\DataService.class
+-com\logicbig\example\data\MyConfiguration.class
+-com\logicbig\example\bean\GuessBean.class
+-com\logicbig\example\data\MyConfigurationService.class
+-com\logicbig\example\Main.class
+-com\logicbig\example\faces\LineChartBean.class
+-com\logicbig\example\data\MyConfigurationRepository.class
+Index: boot-primefaces-integration-example/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>C:\\Users\\erika.castro\\Downloads\\boot-primefaces-integration-example\\boot-primefaces-integration-example\\src\\main\\java\\com\\logicbig\\example\\faces\\LineChartBean.java\nC:\\Users\\erika.castro\\Downloads\\boot-primefaces-integration-example\\boot-primefaces-integration-example\\src\\main\\java\\com\\logicbig\\example\\data\\MyConfigurationService.java\nC:\\Users\\erika.castro\\Downloads\\boot-primefaces-integration-example\\boot-primefaces-integration-example\\src\\main\\java\\com\\logicbig\\example\\Main.java\nC:\\Users\\erika.castro\\Downloads\\boot-primefaces-integration-example\\boot-primefaces-integration-example\\src\\main\\java\\com\\logicbig\\example\\data\\MyConfigurationRepository.java\nC:\\Users\\erika.castro\\Downloads\\boot-primefaces-integration-example\\boot-primefaces-integration-example\\src\\main\\java\\com\\logicbig\\example\\bean\\GuessBean.java\nC:\\Users\\erika.castro\\Downloads\\boot-primefaces-integration-example\\boot-primefaces-integration-example\\src\\main\\java\\com\\logicbig\\example\\data\\MyConfiguration.java\nC:\\Users\\erika.castro\\Downloads\\boot-primefaces-integration-example\\boot-primefaces-integration-example\\src\\main\\java\\com\\logicbig\\example\\bean\\UserBean.java\nC:\\Users\\erika.castro\\Downloads\\boot-primefaces-integration-example\\boot-primefaces-integration-example\\src\\main\\java\\com\\logicbig\\example\\faces\\DataService.java\n
+===================================================================
+diff --git a/boot-primefaces-integration-example/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst b/boot-primefaces-integration-example/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+--- a/boot-primefaces-integration-example/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst	
++++ b/boot-primefaces-integration-example/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst	
+@@ -1,8 +1,8 @@
+-C:\Users\erika.castro\Downloads\boot-primefaces-integration-example\boot-primefaces-integration-example\src\main\java\com\logicbig\example\faces\LineChartBean.java
+-C:\Users\erika.castro\Downloads\boot-primefaces-integration-example\boot-primefaces-integration-example\src\main\java\com\logicbig\example\data\MyConfigurationService.java
+-C:\Users\erika.castro\Downloads\boot-primefaces-integration-example\boot-primefaces-integration-example\src\main\java\com\logicbig\example\Main.java
+-C:\Users\erika.castro\Downloads\boot-primefaces-integration-example\boot-primefaces-integration-example\src\main\java\com\logicbig\example\data\MyConfigurationRepository.java
+-C:\Users\erika.castro\Downloads\boot-primefaces-integration-example\boot-primefaces-integration-example\src\main\java\com\logicbig\example\bean\GuessBean.java
+-C:\Users\erika.castro\Downloads\boot-primefaces-integration-example\boot-primefaces-integration-example\src\main\java\com\logicbig\example\data\MyConfiguration.java
+-C:\Users\erika.castro\Downloads\boot-primefaces-integration-example\boot-primefaces-integration-example\src\main\java\com\logicbig\example\bean\UserBean.java
+-C:\Users\erika.castro\Downloads\boot-primefaces-integration-example\boot-primefaces-integration-example\src\main\java\com\logicbig\example\faces\DataService.java
++/home/santiago/Documentos/UNIVERSIDAD/CDVS/PROYECTO-CICLOS/boot-primefaces-integration-example/boot-primefaces-integration-example/src/main/java/com/logicbig/example/Main.java
++/home/santiago/Documentos/UNIVERSIDAD/CDVS/PROYECTO-CICLOS/boot-primefaces-integration-example/boot-primefaces-integration-example/src/main/java/com/logicbig/example/data/MyConfiguration.java
++/home/santiago/Documentos/UNIVERSIDAD/CDVS/PROYECTO-CICLOS/boot-primefaces-integration-example/boot-primefaces-integration-example/src/main/java/com/logicbig/example/faces/DataService.java
++/home/santiago/Documentos/UNIVERSIDAD/CDVS/PROYECTO-CICLOS/boot-primefaces-integration-example/boot-primefaces-integration-example/src/main/java/com/logicbig/example/data/MyConfigurationService.java
++/home/santiago/Documentos/UNIVERSIDAD/CDVS/PROYECTO-CICLOS/boot-primefaces-integration-example/boot-primefaces-integration-example/src/main/java/com/logicbig/example/faces/LineChartBean.java
++/home/santiago/Documentos/UNIVERSIDAD/CDVS/PROYECTO-CICLOS/boot-primefaces-integration-example/boot-primefaces-integration-example/src/main/java/com/logicbig/example/bean/GuessBean.java
++/home/santiago/Documentos/UNIVERSIDAD/CDVS/PROYECTO-CICLOS/boot-primefaces-integration-example/boot-primefaces-integration-example/src/main/java/com/logicbig/example/bean/UserBean.java
++/home/santiago/Documentos/UNIVERSIDAD/CDVS/PROYECTO-CICLOS/boot-primefaces-integration-example/boot-primefaces-integration-example/src/main/java/com/logicbig/example/data/MyConfigurationRepository.java

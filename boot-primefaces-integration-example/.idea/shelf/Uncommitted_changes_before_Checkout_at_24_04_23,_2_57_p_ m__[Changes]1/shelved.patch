@@ -1,0 +1,61 @@
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	
++++ b/.idea/vcs.xml	
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: boot-primefaces-integration-example/src/main/webapp/login&registration.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/boot-primefaces-integration-example/src/main/webapp/login&registration.html b/boot-primefaces-integration-example/src/main/webapp/login&registration.html
+new file mode 100755
+--- /dev/null	
++++ b/boot-primefaces-integration-example/src/main/webapp/login&registration.html	
+@@ -0,0 +1,33 @@
++<!DOCTYPE html>
++<html>
++<head>
++	<title>Slide Navbar</title>
++	<link rel="stylesheet" type="text/css" href="style.css">
++
++</head>
++<body>
++	<div class="main">  	
++		<input type="checkbox" id="chk" aria-hidden="true">
++
++			<div class="signup">
++				<form>
++					<label for="chk" aria-hidden="true">Sign up</label>
++					<input type="text" name="txt" placeholder="User name" required="">
++					<input type="email" name="email" placeholder="Email" required="">
++					<input type="password" name="pswd" placeholder="Password" required="">
++					<input type="rol" name="rol" placeholder="Estudiante / Profesor /Administardor" required="">
++					<button>Sign up</button>
++				</form>
++			</div>
++
++			<div class="login">
++				<form>
++					<label for="chk" aria-hidden="true">Login</label>
++					<input type="email" name="email" placeholder="Email" required="">
++					<input type="password" name="pswd" placeholder="Password" required="">
++					<button>Login</button>
++				</form>
++			</div>
++	</div>
++</body>
++</html>
+\ No newline at end of file
