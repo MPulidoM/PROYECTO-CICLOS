@@ -14,15 +14,14 @@ body{
 	align-items: center;
 	min-height: 100vh;
 	font-family: 'Jost', sans-serif;
-	background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+	background: url("https://fondosmil.com/fondo/13700.jpg")no-repeat center/ cover;
 }
 .main{
 	width: 350px;
 	height: 500px;
 	background: red;
 	overflow: hidden;
-	background: url("https://doc-08-2c-docs.googleusercontent.com/docs/securesc/68c90smiglihng9534mvqmq1946dmis5/fo0picsp1nhiucmc0l25s29respgpr4j/1631524275000/03522360960922298374/03522360960922298374/1Sx0jhdpEpnNIydS4rnN4kHSJtU1EyWka?e=view&authuser=0&nonce=gcrocepgbb17m&user=03522360960922298374&hash=tfhgbs86ka6divo3llbvp93mg4csvb38") no-repeat center/ cover;
-	border-radius: 10px;
+    background: linear-gradient(to bottom, #021323, #3F86C9, #0D263E);	border-radius: 90px;
 	box-shadow: 5px 20px 50px #000;
 }
 #chk{
@@ -44,8 +43,8 @@ label{
 	transition: .5s ease-in-out;
 }
 input{
-	width: 60%;
-	height: 20px;
+	width: 90%;
+	height: 40px;
 	background: #e0dede;
 	justify-content: center;
 	display: flex;
@@ -68,7 +67,7 @@ button{
 	margin-top: 20px;
 	outline: none;
 	border: none;
-	border-radius: 5px;
+	border-radius: 50px;
 	transition: .2s ease-in;
 	cursor: pointer;
 }
@@ -79,7 +78,7 @@ button:hover{
 	height: 460px;
 	background: #eee;
 	border-radius: 60% / 10%;
-	transform: translateY(-180px);
+	transform: translateY(-160px);
 	transition: .8s ease-in-out;
 }
 .login label{
@@ -97,13 +96,21 @@ button:hover{
 	transform: scale(.6);
 }
 select {
-   width: 60%;
-   height: 20px;
-   justify-content: center;
-   display: flex;
+   position: relative;
+   display: block;
+   width: 90%;
+   height: 40px;
    margin: 20px auto;
-   padding: 10px;
-   border: none;
+   font-family: 'Open Sans', 'Helvetica Neue', 'Segoe UI', 'Calibri', 'Arial', sans-serif;
+   font-size: 1.1em;
+   background: #e0dede;
    outline: none;
    border-radius: 5px;
+   padding: 7px;
+   border: none;
+   outline: none;
+}
+::placeholder {
+    color: black;
+    font-size: 1.3em;
 }
