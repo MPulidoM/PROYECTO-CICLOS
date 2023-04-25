@@ -27,7 +27,7 @@ public class Main{
     public CommandLineRunner run() throws Exception {
         return (args) -> {
             System.out.println("Adding Configuration....\n");
-            userService.addUser(new Users("Mariana","Junior"));
+            userService.addUser(new Users("Mpulido","lhanna.23","Mariana Pulido","proponente",20,"3002441258","mpm@gmail.com"));
 
             System.out.println("\nGetting all configs....");
             userService.getAllUsers().forEach(configuration -> System.out.println(configuration));
