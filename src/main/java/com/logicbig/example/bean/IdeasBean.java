@@ -18,6 +18,8 @@ public class IdeasBean {
     private IdeasService ideaService;
     private String use;
     private String name;
+
+    private String topic;
     private String description;
     private LocalDate fecha;
     private String proponent;
@@ -106,9 +108,17 @@ public class IdeasBean {
         this.message = message;
     }
 
+    public String getTopic() {
+        return topic;
+    }
+
+    public void setTopic(String topic) {
+        this.topic = topic;
+    }
+
     public void addIdea() {
 
-        ideaService.addIdeas(new Ideas( name, description, fecha, proponent, ocupacion, keyWords, proponentArea));
+        ideaService.addIdeas(new Ideas( name, topic, description, proponent, ocupacion, keyWords, proponentArea));
         message = " ";
     }
 

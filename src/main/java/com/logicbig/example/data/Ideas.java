@@ -2,7 +2,10 @@ package com.logicbig.example.data;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import java.lang.reflect.Array;
 import java.time.LocalDate;
+import java.util.Arrays;
+import java.util.List;
 
 @Entity
 public class Ideas {
@@ -10,11 +13,17 @@ public class Ideas {
     @Id
     private String name;
 
+    private String topic;
+
+    //private static final List<String> topics = Arrays.asList("Tecnología", "Social", "Educación", "Salud", "Economia","Ambiental","Infraestructura","Deportes","Artes");
+
+
     private String description;
 
     private LocalDate fecha;
 
     private String proponent;
+
 
     private String ocupacion;
 
@@ -22,12 +31,16 @@ public class Ideas {
 
     private String proponentArea;
 
+
+
     public Ideas() {
     }
 
-    public Ideas(String name, String description, LocalDate fecha, String proponent, String ocupacion, String keyWords, String proponentArea) {
+    public Ideas(String name, String topic,String description, String proponent, String ocupacion, String keyWords, String proponentArea) {
         this.name = name;
+        this.topic = topic;
         this.description = description;
+        this.topic = topic;
         this.fecha = LocalDate.now();
         this.proponent = proponent;
         this.ocupacion = ocupacion;
@@ -91,17 +104,12 @@ public class Ideas {
         this.proponentArea = proponentArea;
     }
 
-    @Override
-    public String toString() {
-        return "Ideas{" +
-                "name='" + name + '\'' +
-                ", description='" + description + '\'' +
-                ", fecha=" + fecha +
-                ", proponent='" + proponent + '\'' +
-                ", ocupacion='" + ocupacion + '\'' +
-                ", keyWords='" + keyWords + '\'' +
-                ", proponentArea='" + proponentArea + '\'' +
-                '}';
+    public String getTopic() {
+        return topic;
+    }
+
+    public void setTopic(String topic) {
+        this.topic = topic;
     }
 
     @Override

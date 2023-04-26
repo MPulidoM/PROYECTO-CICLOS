@@ -1,6 +1,8 @@
 package com.logicbig.example.data;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import java.util.Arrays;
+import java.util.List;
 import java.util.Objects;
 
 @Entity
@@ -13,9 +15,19 @@ public class Users {
 
     private String personalName;
 
-    private String profile;
+    private String profile ;
+
+    private String rol;
 
     private int age;
+
+    public String getRol() {
+        return rol;
+    }
+
+    public void setRol(String rol) {
+        this.rol = rol;
+    }
 
     private String phone;
 
@@ -27,11 +39,12 @@ public class Users {
         this.password = password;
     }
 
-    public Users(String username, String password, String personalName, String profile, int age, String phone, String email) {
+    public Users(String username, String password, String personalName, String profile, String rol, int age, String phone, String email) {
         this.username = username;
         this.password = password;
         this.personalName = personalName;
         this.profile = profile;
+        this.rol = rol;
         this.age = age;
         this.phone = phone;
         this.email = email;
@@ -104,6 +117,7 @@ public class Users {
                 ", password='" + password + '\'' +
                 ", personalName='" + personalName + '\'' +
                 ", profile='" + profile + '\'' +
+                ", rol='" + rol + '\'' +
                 ", age=" + age +
                 ", phone='" + phone + '\'' +
                 ", email='" + email + '\'' +

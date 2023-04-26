@@ -20,6 +20,8 @@ public class UserBean  {
 
     private String profile;
 
+    private String rol;
+
     private int age;
 
     private String phone;
@@ -57,6 +59,54 @@ public class UserBean  {
         this.password = password;
     }
 
+    public String getPersonalName() {
+        return personalName;
+    }
+
+    public void setPersonalName(String personalName) {
+        this.personalName = personalName;
+    }
+
+    public String getProfile() {
+        return profile;
+    }
+
+    public void setProfile(String profile) {
+        this.profile = profile;
+    }
+
+    public String getRol() {
+        return rol;
+    }
+
+    public void setRol(String rol) {
+        this.rol = rol;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
     public void addUser() {
 
        if (userService.userExist(username)){
@@ -64,7 +114,7 @@ public class UserBean  {
            System.out.println(userService.getUser(username));
            System.out.println(message);
        } else {
-           userService.addUser(new Users(username, password, personalName, profile, age,phone, email));
+           userService.addUser(new Users(username, password, personalName, profile,rol, age,phone, email));
            message = " ";
        }
 

@@ -32,8 +32,10 @@ public class Main{
     public CommandLineRunner run() throws Exception {
         return (args) -> {
             System.out.println("Adding Configuration....\n");
-            userService.addUser(new Users("Mpulido","lhanna.23","Mariana Pulido","proponente",20,"3002441258","mpm@gmail.com"));
-            ideasService.addIdeas(new Ideas("Reciclaje","Campaña de nuevos metodos verdes", LocalDate.now(),"Mpulido","estudiante","Clasificacion de residuos","Ambiental"));
+            userService.addUser(new Users("AdminAngora","Ad101Angora","Carlos Leal","Administrador","Empleado",45,"3188450441","Adminastor.Angora@gmail.com"));
+            userService.addUser(new Users("Mpulido23","lhanna.23","Mariana Pulido","Usuario","Estudiante",20,"3002441258","mpm@gmail.com"));
+            userService.addUser(new Users("AmbientalINC.ADMIN","pro.ambiental","Alberto Pardo","Cliente","Gerente de Proyectos ",39,"6092398","ProyectosPlaneta@ambientalINC.com"));
+            ideasService.addIdeas(new Ideas("Reciclaje a 3 pasos","Ambiental","Campaña de nuevos metodos verdes","Mpulido23","estudiante","Clasificacion de residuos","Reciclaje"));
             System.out.println("\nGetting all configs....");
             userService.getAllUsers().forEach(configuration -> System.out.println(configuration));
         };
