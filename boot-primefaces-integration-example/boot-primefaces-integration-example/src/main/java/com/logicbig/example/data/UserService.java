@@ -14,8 +14,17 @@ public class UserService {
     public Users addUser(Users users){
         return userRepository.save(users);
     }
+
+    public boolean userExist(String username){
+        try{
+            userRepository.findByUsername(username).get(0);
+            return true;
+        } catch (Exception e) {
+            return false;
+        }
+    }
     public Users getUser(String username){
-        return userRepository.findByUsername(username).get(1);
+        return userRepository.findByUsername(username).get(0);
     }
     public List<Users> getAllUsers(){
         return userRepository.findAll();

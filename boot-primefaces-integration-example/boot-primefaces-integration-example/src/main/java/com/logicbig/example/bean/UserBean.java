@@ -16,6 +16,15 @@ public class UserBean  {
     private String username;
     private String password;
 
+    private String personalName;
+
+    private String profile;
+
+    private int age;
+
+    private String phone;
+
+    private String email;
     private String message;
 
     public UserBean() {
@@ -49,11 +58,25 @@ public class UserBean  {
     }
 
     public void addUser() {
-       if (true){
-           userService.addUser(new Users(username,password));
+
+       if (userService.userExist(username)){
+           message = "Este usuario ya existe";
+           System.out.println(userService.getUser(username));
+           System.out.println(message);
        } else {
-           message = "Usuario no valido";
+           userService.addUser(new Users(username, password, personalName, profile, age,phone, email));
+           message = " ";
        }
 
+    }
+    public String loginUser(){
+        String bandera = "#{facesContext.getExternalContext().redirect(request.getRequestURI())}" ;
+        if(userService.getUser(username).equals(new Users(username,password))){
+            bandera = "guess.xhtml";
+            message = " ";
+        } else {
+            message = "Usuario no valido";
+        }
+        return bandera;
     }
 }

@@ -53,10 +53,14 @@
             <p>USUARIO:</p>
             <p:inputText value="#{userBean.username}"/>
             <p>CONTRASEÑA:</p>
-            <p:inputText value="#{userBean.password}"/><br/>
-            <p:commandButton value=" Registrarme" action="#{userBean.addUser()}"/>
-            <p:commandButton value=" Ir al juego" action="guess.xhtml"/> <br/>
-            <p>#{userBean.message}</p>
+            <p:password value="#{userBean.password}"  required="true" label="password" />
+            <p:outputLabel id="label" value="#{userBean.message}"></p:outputLabel><br/>
+            <p:commandButton value=" Registrarme" action="#{userBean.addUser()}" update="label"/>
+            <p:commandButton value=" Login" action="#{userBean.loginUser()}" update="label"/>
+            <p:commandButton value=" Buscar idea" action="#{ideasBean.()}"/>
+
+
+
         </div>
 
     </h:form>
