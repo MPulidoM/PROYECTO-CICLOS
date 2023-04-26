@@ -9,13 +9,6 @@
         <module name="boot-primefaces-integration-example" />
       </profile>
     </annotationProcessing>
-<<<<<<< HEAD
-    <bytecodeTargetLevel>
-      <module name="boot-primefaces-integration-example" target="1.8" />
-    </bytecodeTargetLevel>
-=======
-    <bytecodeTargetLevel target="20" />
->>>>>>> 0e3abdf2c285c4cb7c02f991849064cbabad9e05
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">

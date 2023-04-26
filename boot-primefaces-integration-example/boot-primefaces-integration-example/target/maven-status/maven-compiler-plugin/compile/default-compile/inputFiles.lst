@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\LENOVO\Documents\SEM-2023-1\PROYECTO-CICLOS\boot-primefaces-integration-example\boot-primefaces-integration-example\src\main\java\com\logicbig\example\bean\UserBean.java
 C:\Users\LENOVO\Documents\SEM-2023-1\PROYECTO-CICLOS\boot-primefaces-integration-example\boot-primefaces-integration-example\src\main\java\com\logicbig\example\data\IdeasService.java
 C:\Users\LENOVO\Documents\SEM-2023-1\PROYECTO-CICLOS\boot-primefaces-integration-example\boot-primefaces-integration-example\src\main\java\com\logicbig\example\data\UserRepository.java
@@ -10,3 +11,14 @@ C:\Users\LENOVO\Documents\SEM-2023-1\PROYECTO-CICLOS\boot-primefaces-integration
 C:\Users\LENOVO\Documents\SEM-2023-1\PROYECTO-CICLOS\boot-primefaces-integration-example\boot-primefaces-integration-example\src\main\java\com\logicbig\example\data\Ideas.java
 C:\Users\LENOVO\Documents\SEM-2023-1\PROYECTO-CICLOS\boot-primefaces-integration-example\boot-primefaces-integration-example\src\main\java\com\logicbig\example\faces\LineChartBean.java
 C:\Users\LENOVO\Documents\SEM-2023-1\PROYECTO-CICLOS\boot-primefaces-integration-example\boot-primefaces-integration-example\src\main\java\com\logicbig\example\data\IdeaRepository.java
+=======
+C:\Users\user\Desktop\U\CVDS\PROYECTO-CICLOSv3\PROYECTO-CICLOS\boot-primefaces-integration-example\boot-primefaces-integration-example\src\main\java\com\logicbig\example\data\UserRepository.java
+C:\Users\user\Desktop\U\CVDS\PROYECTO-CICLOSv3\PROYECTO-CICLOS\boot-primefaces-integration-example\boot-primefaces-integration-example\src\main\java\com\logicbig\example\bean\GuessBean.java
+C:\Users\user\Desktop\U\CVDS\PROYECTO-CICLOSv3\PROYECTO-CICLOS\boot-primefaces-integration-example\boot-primefaces-integration-example\src\main\java\com\logicbig\example\faces\LineChartBean.java
+C:\Users\user\Desktop\U\CVDS\PROYECTO-CICLOSv3\PROYECTO-CICLOS\boot-primefaces-integration-example\boot-primefaces-integration-example\src\main\java\com\logicbig\example\bean\UserBean.java
+C:\Users\user\Desktop\U\CVDS\PROYECTO-CICLOSv3\PROYECTO-CICLOS\boot-primefaces-integration-example\boot-primefaces-integration-example\src\main\java\com\logicbig\example\faces\DataService.java
+C:\Users\user\Desktop\U\CVDS\PROYECTO-CICLOSv3\PROYECTO-CICLOS\boot-primefaces-integration-example\boot-primefaces-integration-example\src\main\java\com\logicbig\example\data\Users.java
+C:\Users\user\Desktop\U\CVDS\PROYECTO-CICLOSv3\PROYECTO-CICLOS\boot-primefaces-integration-example\boot-primefaces-integration-example\src\main\java\com\logicbig\example\data\UserService.java
+C:\Users\user\Desktop\U\CVDS\PROYECTO-CICLOSv3\PROYECTO-CICLOS\boot-primefaces-integration-example\boot-primefaces-integration-example\src\main\java\com\logicbig\example\data\Ideas.java
+C:\Users\user\Desktop\U\CVDS\PROYECTO-CICLOSv3\PROYECTO-CICLOS\boot-primefaces-integration-example\boot-primefaces-integration-example\src\main\java\com\logicbig\example\Main.java
+>>>>>>> 0e3abdf2c285c4cb7c02f991849064cbabad9e05

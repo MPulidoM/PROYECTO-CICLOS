@@ -11,12 +11,25 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/com/logicbig/example/data/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/logicbig/example/data/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/logicbig/example/data/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/logicbig/example/data/Users.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/usuario.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/usuario.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/logicbig/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/logicbig/example/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/logicbig/example/bean/UserBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/logicbig/example/bean/UserBean.class" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/target/classes/com/logicbig/example/data/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/logicbig/example/data/UserService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/logicbig/example/data/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/logicbig/example/data/Users.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/target/classes/com/logicbig/example/data/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/logicbig/example/data/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/logicbig/example/data/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/logicbig/example/data/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/logicbig/example/data/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/logicbig/example/data/Users.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/logicbig/example/faces/DataService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/logicbig/example/faces/DataService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/logicbig/example/faces/LineChartBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/logicbig/example/faces/LineChartBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-cli/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-cli/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-cli/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-cli/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+>>>>>>> 0e3abdf2c285c4cb7c02f991849064cbabad9e05
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,11 +40,27 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+<<<<<<< HEAD
         <option value="Interface" />
+=======
+>>>>>>> 0e3abdf2c285c4cb7c02f991849064cbabad9e05
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$/../.." source="origin/main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -50,11 +79,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/LENOVO/Documents/SEM-2023-1/PROYECTO-CICLOS/boot-primefaces-integration-example/boot-primefaces-integration-example&quot;
+=======
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/user/Desktop/U/CVDS/PROYECTO-CICLOSv3/PROYECTO-CICLOS/boot-primefaces-integration-example/boot-primefaces-integration-example",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "spring.configuration.checksum": "d0dad89315c2ee0a4a860f7a6bed1147",
+    "vue.rearranger.settings.migration": "true"
+>>>>>>> 0e3abdf2c285c4cb7c02f991849064cbabad9e05
   }
 }</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -65,8 +113,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682180523709</updated>
+      <workItem from="1682396794448" duration="1994000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

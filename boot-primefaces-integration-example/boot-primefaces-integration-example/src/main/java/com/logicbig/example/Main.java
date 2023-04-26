@@ -33,7 +33,11 @@ public class Main{
         return (args) -> {
             System.out.println("Adding Configuration....\n");
             userService.addUser(new Users("Mpulido","lhanna.23","Mariana Pulido","proponente",20,"3002441258","mpm@gmail.com"));
+<<<<<<< HEAD
             ideasService.addIdeas(new Ideas("Reciclaje","Campaña de nuevos metodos verdes", LocalDate.now(),"Mpulido","estudiante","Clasificacion de residuos","Ambiental"));
+=======
+
+>>>>>>> 0e3abdf2c285c4cb7c02f991849064cbabad9e05
             System.out.println("\nGetting all configs....");
             userService.getAllUsers().forEach(configuration -> System.out.println(configuration));
         };
