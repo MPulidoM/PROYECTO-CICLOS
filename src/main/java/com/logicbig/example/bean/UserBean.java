@@ -72,7 +72,7 @@ public class UserBean  {
     public String loginUser(){
         String bandera = "#{facesContext.getExternalContext().redirect(request.getRequestURI())}" ;
         if(userService.getUser(username).equals(new Users(username,password))){
-            bandera = "guess.xhtml";
+            bandera = "idea.xhtml";
             message = " ";
         } else {
             message = "Usuario no valido";

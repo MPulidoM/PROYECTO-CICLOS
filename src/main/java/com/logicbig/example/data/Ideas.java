@@ -28,7 +28,7 @@ public class Ideas {
     public Ideas(String name, String description, LocalDate fecha, String proponent, String ocupacion, String keyWords, String proponentArea) {
         this.name = name;
         this.description = description;
-        this.fecha = fecha;
+        this.fecha = LocalDate.now();
         this.proponent = proponent;
         this.ocupacion = ocupacion;
         this.keyWords = keyWords;
