@@ -6,33 +6,30 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import javax.faces.bean.ManagedBean;
-import java.io.Serializable;
 
 @Component
 @ManagedBean(name = "userBean")
 public class UserBean  {
     @Autowired
     private UserService userService;
-    private String username;
+    // Nombre que tengra el usuario dentro de la aplicacion y con el cual se identifica (ID)
+    static String username;
     private String password;
-
+    // Nombre real de la persona que ingresa la informacion (Jorge Useche)
     private String personalName;
-
+    // Perfil que maneja dentro de nuestra aplicacion, de esto dependen los permisos
     private String profile;
-
+    // Cargo que desempeña
     private String rol;
-
     private int age;
-
-    private String phone;
-
+    private String area;
     private String email;
     private String message;
 
     public UserBean() {
-        this.username = " ";
-        this.password = " ";
-        this.message = " ";
+        this.username = "";
+        this.password = "";
+        this.message = "";
     }
 
     public String getMessage() {
@@ -91,12 +88,12 @@ public class UserBean  {
         this.age = age;
     }
 
-    public String getPhone() {
-        return phone;
+    public String getArea() {
+        return area;
     }
 
-    public void setPhone(String phone) {
-        this.phone = phone;
+    public void setArea(String area) {
+        this.area = area;
     }
 
     public String getEmail() {
@@ -114,7 +111,7 @@ public class UserBean  {
            System.out.println(userService.getUser(username));
            System.out.println(message);
        } else {
-           userService.addUser(new Users(username, password, personalName, profile,rol, age,phone, email));
+           userService.addUser(new Users(username, password, personalName, profile,rol, age, area, email));
            message = " ";
        }
 

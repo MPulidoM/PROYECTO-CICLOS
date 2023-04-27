@@ -12,26 +12,13 @@ public class Ideas {
 
     @Id
     private String name;
-
     private String topic;
-
-    //private static final List<String> topics = Arrays.asList("Tecnología", "Social", "Educación", "Salud", "Economia","Ambiental","Infraestructura","Deportes","Artes");
-
-
     private String description;
-
     private LocalDate fecha;
-
     private String proponent;
-
-
     private String ocupacion;
-
     private String keyWords;
-
     private String proponentArea;
-
-
 
     public Ideas() {
     }

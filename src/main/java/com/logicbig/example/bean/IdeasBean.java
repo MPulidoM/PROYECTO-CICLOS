@@ -18,7 +18,6 @@ public class IdeasBean {
     private IdeasService ideaService;
     private String use;
     private String name;
-
     private String topic;
     private String description;
     private LocalDate fecha;
@@ -118,7 +117,7 @@ public class IdeasBean {
 
     public void addIdea() {
 
-        ideaService.addIdeas(new Ideas( name, topic, description, proponent, ocupacion, keyWords, proponentArea));
+        ideaService.addIdeas(new Ideas( name, topic, description, UserBean.username, ocupacion, keyWords, proponentArea));
         message = " ";
     }
 
