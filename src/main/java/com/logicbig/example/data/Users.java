@@ -1,8 +1,6 @@
 package com.logicbig.example.data;
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import java.util.Arrays;
-import java.util.List;
 import java.util.Objects;
 
 @Entity
@@ -21,15 +19,7 @@ public class Users {
 
     private int age;
 
-    public String getRol() {
-        return rol;
-    }
-
-    public void setRol(String rol) {
-        this.rol = rol;
-    }
-
-    private String phone;
+    private String area;
 
     private String email;
 
@@ -39,18 +29,26 @@ public class Users {
         this.password = password;
     }
 
-    public Users(String username, String password, String personalName, String profile, String rol, int age, String phone, String email) {
+    public Users(String username, String password, String personalName, String profile, String rol, int age, String area, String email) {
         this.username = username;
         this.password = password;
         this.personalName = personalName;
         this.profile = profile;
         this.rol = rol;
         this.age = age;
-        this.phone = phone;
+        this.area = area;
         this.email = email;
     }
 
     public Users() {
+    }
+
+    public String getRol() {
+        return rol;
+    }
+
+    public void setRol(String rol) {
+        this.rol = rol;
     }
 
     public String getUsername() {
@@ -94,12 +92,12 @@ public class Users {
         this.age = age;
     }
 
-    public String getPhone() {
-        return phone;
+    public String getArea() {
+        return area;
     }
 
-    public void setPhone(String phone) {
-        this.phone = phone;
+    public void setArea(String area) {
+        this.area = area;
     }
 
     public String getEmail() {
@@ -119,7 +117,7 @@ public class Users {
                 ", profile='" + profile + '\'' +
                 ", rol='" + rol + '\'' +
                 ", age=" + age +
-                ", phone='" + phone + '\'' +
+                ", area='" + area + '\'' +
                 ", email='" + email + '\'' +
                 '}';
     }
